@@ -1,1 +1,1 @@
-These projects were inspired by the concepts while working through the curriculum with The Odin Project. 
+These projects were inspired by the concepts introduced while working through the The Odin Project. 
