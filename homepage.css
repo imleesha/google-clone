@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+/* Top Nav Bar */
+#top {
+    float: right;
+}
+
+top.li {
+    display: inline-block;
+    padding: 8px;
+}
+
+#top #sign-in {
+    background: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.nav-links {
+    color: #404040;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li.top a:hover {
+    text-decoration: underline;
+}
+
+#sign-in:hover {
+    box-shadow: 1px 1px 5[x #999;]
+}
+
+#sign-in {
+    color: #fff;
+}
+
+.google #google-logo {
+    src: url(https://www.google.com/logos/doodles/2019/hedwig-kohns-132nd-birthday-6626820043571200.4-l.png);
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
+
+.form {
+    text-align: center;
+}
+
+#form-search {
+    width: 450px;
+    line-height: 32px;
+    padding: 20px 10px;
+}
+
+.form #form-search {
+    padding: 0 8px;
+}
+
