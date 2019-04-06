@@ -12,8 +12,13 @@ ul {
     list-style: none;
 }
 /* Top Nav Bar */
-#top {
-    float: right;
+#navleft {
+    float: left;
+    margin; 0;
+    padding: 20px;
+    background-color: blue;
+    color: black;
+
 }
 
 top.li {
@@ -21,7 +26,7 @@ top.li {
     padding: 8px;
 }
 
-#top #sign-in {
+#navleft #sign-in {
     background: #4887ef;
     margin-right: 25px;
     padding: 7px 15px;
