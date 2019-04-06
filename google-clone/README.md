@@ -1,1 +1,0 @@
-These projects were inspired by the concepts that were taught while working through the curriculum with The Odin Project. 
