@@ -1,34 +1,13 @@
-<<<<<<< HEAD:google-clone/homepage.css
 html body {
-    height: 100%;
-    margin: 0;
-||||||| merged common ancestors
-body {
-=======
-html body {
->>>>>>> 296af2463e5be91837e4e2e0b44e931c54e712af:google-clone/main.css
-    color: black;
-<<<<<<< HEAD:google-clone/homepage.css
-    font-size: 16px, small;
-    font-family: arial, sans-serif
-||||||| merged common ancestors
-    font-size: 16px;
-=======
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
->>>>>>> 296af2463e5be91837e4e2e0b44e931c54e712af:google-clone/main.css
+    
 }
 
-<<<<<<< HEAD:google-clone/homepage.css
 #nav .nav-left .nav-right {
     display: flex;
     position: relative;
     margin: 5px 0 0 0;
     padding: 0 0 0 10px;
     text-decoration: none;
-||||||| merged common ancestors
-a:link, a:visited {
     color: black;
     text-decoration: none;
 }
@@ -56,7 +35,7 @@ a.active a.hover a. {
     list-style-type: none;
     margin: 5px;
     padding: 10px;
->>>>>>> 296af2463e5be91837e4e2e0b44e931c54e712af:google-clone/main.css
+
 }
 
 ul {
