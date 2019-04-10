@@ -1,38 +1,28 @@
-body {
+html body {
+    height: 100%;
+    margin: 0;
     color: black;
-    font-size: 16px;
+    font-size: 16px, small;
+    font-family: arial, sans-serif
 }
 
-a:link, a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover, a:active {
-    color: black;
+#nav .nav-left .nav-right {
+    display: flex;
+    position: relative;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 10px;
     text-decoration: none;
 }
 
 ul {
-    display: inline;
-    list-style-type: none;
-    position: relative;
-    margin: 5px 0 0 0;
-    padding: 0 0 0 10px;
-    overflow: hidden;
-}
-
-#left li{
-    float: left;
     margin-top: 5px;
     padding: 5px;
 
 }
-#right ul {
+li {
     margin: 5px;
     padding: 5px;
-    top: 17px;
-    float: right;
+    text-decoration: none;
 
 }
 
