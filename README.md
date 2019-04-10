@@ -1,1 +1,3 @@
-These projects were inspired by the concepts introduced while working through the The Odin Project. 
+<!--THE-ODIN-PROJECT-->
+
+Objective: Learned how to reverse engineer the Google homepage using HTML and CSS. 
