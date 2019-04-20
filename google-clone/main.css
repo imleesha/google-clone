@@ -1,17 +1,29 @@
-html, body {
-    height: 100%
-    margin: 0 auto;
-    font-family: "Roboto", sans-serif;
+html {
+  width: 100%;
+  word-spacing: 3px;
+  font-size: small;
 }
 
-#nav, nav-left, .nav-right {
-    display: flex;
-    padding-top: .5rem;
-    height: auto;
+a:hover {
+  text-decoration: underline;
 }
 
-li a (
-    text-decoration: none;
-    color: black;
+#nav li {
+  display: inline;
+}
 
-)
+ul {
+  list-style-type: none;
+  top: 0px;
+}
+
+li a{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-right > li{
+  position: relative;
+  left: 72%;
+  bottom: 1em;
+}
