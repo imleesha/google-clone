@@ -22,9 +22,22 @@ li a{
   text-decoration: none;
 }
 
+.nav-left > li{
+  position: relative;
+  margin: 1em;
+}
+
 .nav-right > li{
   position: relative;
-  left: 72%;
+  left: 75%;
   bottom: 1em;
+}
+
+#sign-in > a{
+  background-color: rgb(60, 122, 268);
+  border-color: rgb(60, 122, 268)
+  width: 50px;
+  height: 30px;
+  color: white;
 }
 
