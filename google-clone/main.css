@@ -1,9 +1,19 @@
+<<<<<<< HEAD
 body {
   margin: 0 auto;
   padding 1em;
   font-family: "Roboto" san-serif;
+||||||| merged common ancestors
+html {
+=======
+<<<<<<< HEAD
+html body {
+=======
+html {
+>>>>>>> 93a13699749661117957fa6b1a66ea0b5cdbb447
   width: 100%;
   font-size: small;
+>>>>>>> 6d783c6caae37dfd159f4ed17a1b8a68bf174e2e
 }
 
 .nav-left, li, a{
