@@ -1,19 +1,8 @@
-<<<<<<< HEAD
 body {
   margin: 0 auto;
-  padding 1em;
-  font-family: "Roboto" san-serif;
-||||||| merged common ancestors
-html {
-=======
-<<<<<<< HEAD
-html body {
-=======
-html {
->>>>>>> 93a13699749661117957fa6b1a66ea0b5cdbb447
+  font-family: san-serif;
   width: 100%;
   font-size: small;
->>>>>>> 6d783c6caae37dfd159f4ed17a1b8a68bf174e2e
 }
 
 .nav-left, li, a{
@@ -22,25 +11,14 @@ html {
   color: black;
 }
 
-.nav-right li{
-  position: relative;
-  display: inline;
-  list-style: none;
-  margin-left: 1em;
-}
-
 .nav-right {
   float: right;
 }
 
-#sign-in {
+#sign-in a{
   background-color: blue;
   border: 10px solid blue;
-}
-
-#sign-in a {
   color: white;
-  font-weight: bold;
 }
 
 a:hover {
@@ -51,12 +29,6 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  height: 200px;
-}
-
-.logo-section {
-  height: 250px;
 }
 
 #search {
@@ -66,11 +38,12 @@ a:hover {
   width: 450px;
   height: 40px;
   border-radius: 30px;
-  
 }
 
 #searchbox {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button {
@@ -81,10 +54,17 @@ button {
 
 footer {
   width: 100%;
+  margin: 0 auto;
   height: 100px;
-  background-color: silver;
+  background-color: #F2F2F2;
+}
+
+.left-foot {
+  padding: 0.5em
 }
 
 .right-foot {
   float: right;
+  padding: 0.5em;
 }
+
