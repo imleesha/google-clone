@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+	font: 1em sans-serif;
+}
+
+#logo {
+	display: flex;
+	padding: 5px;
+}
+
+.nav {
+	position: relative;
+	margin-left: 75px;
+	margin-bottom: -25px;
+	margin-top: -45px;
+	list-style: none;
+	width: 500px;
+	padding: 10px;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	margin: 0 auto;
+	padding: 3px;
+	color: black;
+	text-decoration: none;
+	font-size: small;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:visited, a:link, a:active {
+	text-decoration: none;
+}
+
+.user {
+	word-spacing: 15px;
+	margin: 0 auto;
+	position: relative;
+	float: right;
+	bottom: 125px;
+}
+
+#searchbar input {
+	margin-left: 125px;
+	bottom: 40px;
+	position: relative;
+	padding: 15px;
+	width: 450px;
+	height: 50px;
+	box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+	border-radius: 25px;
+}
+
+.mic {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-origin: content-box;
+	background-size: 1rem 1.5rem;
+}
+
+.links1 {
+	box-sizing: content-box;
+	margin: 0 auto;
+	width: 500px;
+	position: absolute;
+	padding: 25px;
+	border: dashed;
+}
+
+.links1 a {
+	font-size: 1em;
+}
+
+.fb a {
+
+}
+
+.footer {
+	background-color: #F2F2F2;
+	position:relative;
+	top:350px;
+	width: 100%;
+	height: 50px;
+}
+
+.footer p {
+	color: black;
+	text-decoration: none;
+
+}
